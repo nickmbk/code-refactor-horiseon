@@ -80,7 +80,7 @@ what the company does */
 }
 
 /* formats each box contained within the content class */
-.content-formatting {
+.content-box {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -89,13 +89,13 @@ what the company does */
     color: #ffffff;
 }
 
-/* sets the maximum height of the images within any element that is given the content-formatting class */
-.content-formatting img {
+/* sets the maximum height of the images within any element that is given the content-box class */
+.content-box img {
     max-height: 200px;
 }
 
-/* targets the h2 element within any element given the content-formatting class */
-.content-formatting h2 {
+/* targets the h2 element within any element given the content-box class */
+.content-box h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
